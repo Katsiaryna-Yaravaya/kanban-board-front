@@ -1,0 +1,27 @@
+.todoForm {
+    margin-left: 38vw;
+    margin-top: 1rem;
+}
+
+.todoInput {
+    border: 1px solid #4b0082;
+    border-radius: 4px;
+    height: 35px;
+    background: aliceblue;
+    color: #191970;
+    outline: none;
+    width: 350px;
+    padding-left: 1rem;
+}
+
+.todoButton {
+    border: 1px solid #4b0082;
+    border-radius: 4px;
+    height: 38px;
+    width: 50px;
+    background: aliceblue;
+    color: #191970;
+    outline: none;
+    margin-left: 12px;
+    margin-bottom: 1rem;
+}

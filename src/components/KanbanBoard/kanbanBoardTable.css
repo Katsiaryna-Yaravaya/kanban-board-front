@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.column {
+    width: 350px;
+    margin: 10px;
+    border-radius: 6px;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.do-it-column {
+    background-color: #fff0f0;
+}
+
+.in-progress-column {
+    background-color: #fef2e7;
+}
+
+.done-column {
+    background-color: #f5ffe5;
+}
+
+.movable-item {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    padding: 0 1rem;
+    border: 1px solid blue;
+    margin-bottom: 0.5rem;
+    margin-right: 15px;
+    margin-left: 25px;
+    border-radius: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 270px;
+    text-align: start;
+}
